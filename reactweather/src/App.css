@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://image.lexica.art/full_webp/ff74ca01-b020-4b96-b2c9-af7239461c50");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.main{
+  background-image: url("https://media.istockphoto.com/id/1343670921/photo/black-and-blue-gradient-background.jpg?s=612x612&w=0&k=20&c=Fu7I3frIVdFubR4buzJm2rPv45XnCuD_asw66Tf7o-M=");
+  /* background-position; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: blur(1px); */
+}
