@@ -19,9 +19,12 @@ body{
 
 
 .main{
-  background-image: url("https://media.istockphoto.com/id/1343670921/photo/black-and-blue-gradient-background.jpg?s=612x612&w=0&k=20&c=Fu7I3frIVdFubR4buzJm2rPv45XnCuD_asw66Tf7o-M=");
+  /* background-image: url("https://media.istockphoto.com/id/1343670921/photo/black-and-blue-gradient-background.jpg?s=612x612&w=0&k=20&c=Fu7I3frIVdFubR4buzJm2rPv45XnCuD_asw66Tf7o-M="); */
   /* background-position; */
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
   /* filter: blur(1px); */
+  background-color: rgba(79, 150, 232, 0.4);
+  /* -webkit-backdrop-filter: blur(2px); */
+  backdrop-filter: blur(2px);
 }

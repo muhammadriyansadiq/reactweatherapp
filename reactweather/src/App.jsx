@@ -98,7 +98,7 @@ case "Clouds":
 
   return (
     <>
-  <p className=' w-1/2 md:h-2/6 md:w-1/3'>{icon}
+  <p className=' w-1/2 md:h-4/6 md:w-1/3'>{icon}
   </p>
   <p className=' text-center text-white'>{data.main.temp}°C</p>
 
@@ -106,16 +106,16 @@ case "Clouds":
 
 <div key={ind} className=' w-full flex justify-center items-center'>
 
-  <div className="humidity w-1/2 flex md:justify-end">
-    <img src={humidity} alt="humidity" className=' w-2/5 h-2/5 mr-2 ml-1 md:w-1/5 md:h-1/5'/>
+  <div className="humidity w-1/2 flex md:justify-end items-center">
+    <img src={humidity} alt="humidity" className=' w-2/5 h-2/5 mr-2 ml-1 md:w-2/12 md:h-1/5'/>
     <div className=' text-white'>
     <p>{data.main.humidity}%</p>
     <p>Humidity</p>
     </div>
   </div>
 
-  <div className="wind w-1/2 flex ml-4 md:justify-start">
-    <img src={wind} alt="wind" className=' w-2/5 h-2/5 mr-2 ml-1 md:w-1/5 md:h-1/5'/>
+  <div className="wind w-1/2 flex ml-4 md:justify-start items-center">
+    <img src={wind} alt="wind" className=' w-2/5 h-2/5 mr-2 ml-1 md:w-2/12 md:h-1/5'/>
     <div className='text-white'>
     <p>{data.wind.speed}Km/hr</p>
     <p className=' text-sm'>Windspeed</p>
